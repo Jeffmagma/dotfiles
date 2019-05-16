@@ -7,7 +7,7 @@ sudo apt upgrade
 # add stuff to bashrc
 cat .bashrc >> ~/.bashrc
 
-# add stuff to vimrc
+# install and add stuff to vimrc
 sudo apt install vim
 cp .vimrc ~/.vimrc
 
@@ -24,6 +24,10 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc
 make
 sudo make install
+
+# install powerline
+
+# install polybar
 
 # configure i3
 "gaps inner 10" >> 
