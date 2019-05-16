@@ -5,6 +5,7 @@ sudo apt update
 sudo apt upgrade
 
 # add stuff to bashrc
+cat .bashrc >> ~/.bashrc
 
 # add stuff to vimrc
 sudo apt install vim
