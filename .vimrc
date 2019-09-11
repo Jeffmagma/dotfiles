@@ -1,1 +1,1 @@
-set syntax on
+syntax on
